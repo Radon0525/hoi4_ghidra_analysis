@@ -26,14 +26,13 @@ HOI4には `air_power_projection_factor` というmodifierがありますが、W
 Power Projectionは、
 
 **Air Attack（対空攻撃）に加算  
-Air Defence（航空機防御）に加算  
-Agility（機動性）には加算されない**
+Air Defence（航空機防御）に加算**
 
 という処理になっていました。
 
 したがって、今回解析したHOI4バージョンでは、
 
-> **`air_power_projection_factor` は、home外で活動する航空機のAir AttackとAir Defenceを強化するmodifierであり、Agilityには影響しない。**
+> **`air_power_projection_factor` は、home外で活動する航空機のAir AttackとAir Defenceを強化するmodifierである。**
 
 というのが結論です。
 
